@@ -22,8 +22,6 @@ License: Copyright (c) 2018 The Python Packaging Authority
         LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
         OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
         SOFTWARE.
-Project-URL: Homepage, https://www.dmi.unict.it/zito/
-Project-URL: Issues, https://www.dmi.unict.it/zito/
 Keywords: Automated Machine Learning,Deep Neural Network
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
@@ -32,8 +30,8 @@ Requires-Python: >=3.10
 Description-Content-Type: text/markdown
 License-File: LICENSE
 Requires-Dist: tensorflow_datasets
-Requires-Dist: tensorflow-text
-Requires-Dist: tf-models-official
+Requires-Dist: keras
+Requires-Dist: tensorflow
 Requires-Dist: networkx
 Requires-Dist: seaborn
 Requires-Dist: scipy
@@ -47,4 +45,67 @@ Requires-Dist: numpy
 Requires-Dist: pyswarms
 Requires-Dist: pyyaml
 Requires-Dist: bayesian-optimization
+Requires-Dist: uuid
+Requires-Dist: multiprocessing
+Requires-Dist: itertools
 Dynamic: license-file
+
+# AutomatedML
+
+AutomatedML is a modular framework for automated machine learning, supporting neural network architectures, model evaluation, optimization, and data handling.
+
+## Features
+
+- Modular component factory for ML pipelines
+- Data container utilities
+- Model evaluation and optimization
+- Support for custom layers and models
+- Extensible engine and utility modules
+
+## Installation
+
+Clone the repository and install dependencies:
+
+```powershell
+# Clone the repository
+git clone <repo-url>
+cd automl
+# Install dependencies
+pip install -e .
+```
+
+### Configure Python Virtual Environment (Linux/macOS)
+
+You can use the following shell commands to set up a virtual environment and install the package:
+
+```sh
+# Create a virtual environment
+python3 -m venv venv
+# Activate the virtual environment
+source venv/bin/activate
+# Install the package
+pip install -e .
+```
+
+## Directory Structure
+
+```
+src/automatedML/      # Core library modules
+    ann/              # Neural network components
+    annmodels/        # Predefined models
+    component/        # Pipeline components
+    engine/           # Execution engine
+    flatgenerator/    # Model generator
+    models/           # Model definitions
+    optimizator/      # Optimization algorithms
+    utils/            # Utility functions
+
+tests/                # Test scripts and datasets
+anns/                 # Example neural network configs and images
+datasets/             # Example datasets
+plots/                # Generated plots and visualizations
+```
+
+## License
+
+See `LICENSE` for details.

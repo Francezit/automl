@@ -19,19 +19,9 @@ src/automatedML/ann/utils.py
 src/automatedML/annmodels/__init__.py
 src/automatedML/annmodels/alexnet.py
 src/automatedML/annmodels/cnn.py
-src/automatedML/annmodels/convnext.py
-src/automatedML/annmodels/ddrnet.py
 src/automatedML/annmodels/fcnn.py
-src/automatedML/annmodels/maskformer.py
-src/automatedML/annmodels/mbanet.py
 src/automatedML/annmodels/mlp.py
-src/automatedML/annmodels/ppyolo.py
 src/automatedML/annmodels/rnn.py
-src/automatedML/annmodels/segformer.py
-src/automatedML/annmodels/unetplusplus.py
-src/automatedML/annmodels/yolonas.py
-src/automatedML/annmodels/yolov6.py
-src/automatedML/annmodels/yolov8.py
 src/automatedML/component/__init__.py
 src/automatedML/component/basecomponent.py
 src/automatedML/component/settings.py
@@ -112,7 +102,6 @@ src/automatedML/optimizator/algorithms/pso.py
 src/automatedML/optimizator/algorithms/randomsearch.py
 src/automatedML/optimizator/algorithms/simulatedannealing.py
 src/automatedML/optimizator/algorithms/tabusearch.py
-src/automatedML/parallelgenerator/generator.py
 src/automatedML/utils/__init__.py
 src/automatedML/utils/advancedmatrix.py
 src/automatedML/utils/loghelper.py

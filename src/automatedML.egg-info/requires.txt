@@ -1,6 +1,6 @@
 tensorflow_datasets
-tensorflow-text
-tf-models-official
+keras
+tensorflow
 networkx
 seaborn
 scipy
@@ -14,3 +14,6 @@ numpy
 pyswarms
 pyyaml
 bayesian-optimization
+uuid
+multiprocessing
+itertools

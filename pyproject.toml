@@ -22,8 +22,8 @@ classifiers = [
 ]
 dependencies = [
   "tensorflow_datasets",
-  "tensorflow-text",
-  "tf-models-official",
+  "keras",
+  "tensorflow",
   "networkx",
   "seaborn",
   "scipy",
@@ -36,9 +36,9 @@ dependencies = [
   "numpy",
   "pyswarms",
   "pyyaml",
-  "bayesian-optimization"
+  "bayesian-optimization",
+  "uuid",
+  "multiprocessing",
+  "itertools"
 ]
 
-[project.urls]
-Homepage = ""
-Issues = ""

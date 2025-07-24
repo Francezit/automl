@@ -2,7 +2,7 @@ import logging
 
 from .component import BaseComponent, BaseComponentSettings
 
-#TODO
+
 class ComponentFactory():
     _settings: BaseComponentSettings
     _logger: logging.Logger
