@@ -1,0 +1,16 @@
+tensorflow_datasets
+tensorflow-text
+tf-models-official
+networkx
+seaborn
+scipy
+scikit-learn
+pandas
+pillow
+matplotlib
+pydot
+deap
+numpy
+pyswarms
+pyyaml
+bayesian-optimization

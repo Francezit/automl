@@ -1,0 +1,44 @@
+[build-system]
+requires = [
+  "setuptools>=61.0"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "automatedML"
+version = "0.7.0"
+license = {file = "LICENSE"}
+authors = [
+  { name="Francesco Zito", email="zitofrancesco@outlook.com" }
+]
+keywords = ["Automated Machine Learning", "Deep Neural Network"]
+description = "Framework for Automated Machine learning"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+ "Programming Language :: Python :: 3",
+ "License :: OSI Approved :: MIT License",
+ "Operating System :: OS Independent",
+]
+dependencies = [
+  "tensorflow_datasets",
+  "tensorflow-text",
+  "tf-models-official",
+  "networkx",
+  "seaborn",
+  "scipy",
+  "scikit-learn",
+  "pandas",
+  "pillow",
+  "matplotlib",
+  "pydot",
+  "deap",
+  "numpy",
+  "pyswarms",
+  "pyyaml",
+  "bayesian-optimization"
+]
+
+[project.urls]
+Homepage = ""
+Issues = ""
