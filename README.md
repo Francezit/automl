@@ -2,25 +2,8 @@
 
 AutomatedML is a modular framework for automated machine learning, supporting neural network architectures, model evaluation, optimization, and data handling.
 
-# Citation 
-
 A General-Purpose Neural Architecture Search Algorithm for Building Deep Neural Networks
 https://doi.org/10.1007/978-3-031-62922-8_9
-
-```bibtex
-@inbook{Zito2024,
-  title = {A General-Purpose Neural Architecture Search Algorithm for Building Deep Neural Networks},
-  ISBN = {9783031629228},
-  ISSN = {1611-3349},
-  url = {http://dx.doi.org/10.1007/978-3-031-62922-8_9},
-  DOI = {10.1007/978-3-031-62922-8_9},
-  booktitle = {Metaheuristics},
-  publisher = {Springer Nature Switzerland},
-  author = {Zito,  Francesco and Cutello,  Vincenzo and Pavone,  Mario},
-  year = {2024},
-  pages = {126–141}
-}
-```
 
 ## Features
 
