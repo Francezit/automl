@@ -7,6 +7,7 @@ AutomatedML is a modular framework for automated machine learning, supporting ne
 A General-Purpose Neural Architecture Search Algorithm for Building Deep Neural Networks
 https://doi.org/10.1007/978-3-031-62922-8_9
 
+```bibtex
 @inbook{Zito2024,
   title = {A General-Purpose Neural Architecture Search Algorithm for Building Deep Neural Networks},
   ISBN = {9783031629228},
@@ -19,6 +20,7 @@ https://doi.org/10.1007/978-3-031-62922-8_9
   year = {2024},
   pages = {126–141}
 }
+```
 
 ## Features
 
@@ -28,30 +30,6 @@ https://doi.org/10.1007/978-3-031-62922-8_9
 - Support for custom layers and models
 - Extensible engine and utility modules
 
-## Installation
-
-Clone the repository and install dependencies:
-
-```powershell
-# Clone the repository
-git clone <repo-url>
-cd automl
-# Install dependencies
-pip install -e .
-```
-
-### Configure Python Virtual Environment (Linux/macOS)
-
-You can use the following shell commands to set up a virtual environment and install the package:
-
-```sh
-# Create a virtual environment
-python3 -m venv venv
-# Activate the virtual environment
-source venv/bin/activate
-# Install the package
-pip install -e .
-```
 
 ## Directory Structure
 
