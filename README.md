@@ -5,6 +5,9 @@ AutomatedML is a modular framework for automated machine learning, supporting ne
 A General-Purpose Neural Architecture Search Algorithm for Building Deep Neural Networks
 https://doi.org/10.1007/978-3-031-62922-8_9
 
+Metaheuristics in automated machine learning: Strategies for optimization
+https://doi.org/10.1016/j.iswa.2025.200532
+
 ## Features
 
 - Modular component factory for ML pipelines
